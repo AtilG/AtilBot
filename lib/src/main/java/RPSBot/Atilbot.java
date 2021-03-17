@@ -14,7 +14,7 @@ import discord4j.core.object.entity.User;
 public final class Atilbot {
 
   public static void main(final String[] args) {
-    final String token = "ODIxMTQxNzQ3MDMwOTQ5OTM4.YE_Z2A.mUUYU7GPoYbNd2Gp_qlyaOjz24k";
+    final String token = "YOUR TOKEN HERE";
     final DiscordClient login = DiscordClient.create(token);
     final GatewayDiscordClient client = login.login().block();
 
